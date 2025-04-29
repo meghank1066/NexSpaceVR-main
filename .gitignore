@@ -1,0 +1,71 @@
+# ========== Unity Specific ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Ignore Auto-generated files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore Visual Studio & Rider metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore Unity Cache & Package Cache
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/Packages/com.unity.package-manager.cache/
+Packages/packages-lock.json
+# Keep manifest.json to ensure the same package versions are used
+
+# ========== KEEP SCENES, SCRIPTS, ASSETS ==========
+# DO NOT IGNORE THESE FILES:
+!Assets/**/*.meta
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.anim
+!Assets/**/*.controller
+!Assets/**/*.shader
+!Assets/**/*.cs
+!Assets/**/*.json
+!Assets/**/*.xml
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.fbx
+!Assets/**/*.wav
+!Assets/**/*.mp3
+
+# ========== Git Ignore for Collaboration ==========
+# Force include important Unity files
+!ProjectSettings/ProjectVersion.txt
+!ProjectSettings/EditorBuildSettings.asset
+!ProjectSettings/TagManager.asset
+!ProjectSettings/GraphicsSettings.asset
+!ProjectSettings/ProjectSettings.asset
+!ProjectSettings/InputManager.asset
+!ProjectSettings/AudioManager.asset
+!ProjectSettings/DynamicsManager.asset
+!ProjectSettings/NavMeshAreas.asset
+
+# Ignore Play Mode test results
+Assets/Scenes/*/Tests/**/Results/
+
+# Ignore temporary local files
+.DS_Store
+Thumbs.db
